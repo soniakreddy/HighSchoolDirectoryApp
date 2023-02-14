@@ -1,0 +1,6 @@
+framework module Pods_HighSchoolDirectoryApp_HighSchoolDirectoryAppUITests {
+  umbrella header "Pods-HighSchoolDirectoryApp-HighSchoolDirectoryAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

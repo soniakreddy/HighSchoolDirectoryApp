@@ -1,0 +1,1117 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0632CEC8A5F16A55F3816617 /* Pods_HighSchoolDirectoryAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB6B1FDF155BA69AC191C38C /* Pods_HighSchoolDirectoryAppTests.framework */; };
+		0E149ECF7DCC50EEE658F84D /* Pods_HighSchoolDirectoryApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B092A25D9A1D15C6AD83DD38 /* Pods_HighSchoolDirectoryApp.framework */; };
+		30AE6C7626CE9A68A91EF911 /* Pods_HighSchoolDirectoryApp_HighSchoolDirectoryAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C691DBA6C30E43D2E843CB2 /* Pods_HighSchoolDirectoryApp_HighSchoolDirectoryAppUITests.framework */; };
+		580087452993845B00A8B9FA /* OverviewInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580087442993845B00A8B9FA /* OverviewInfoTableViewCell.swift */; };
+		580087462993845B00A8B9FA /* OverviewInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580087442993845B00A8B9FA /* OverviewInfoTableViewCell.swift */; };
+		580087472993845B00A8B9FA /* OverviewInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580087442993845B00A8B9FA /* OverviewInfoTableViewCell.swift */; };
+		5847DE84299B7F1F008D1861 /* TransportationOptionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5847DE83299B7F1F008D1861 /* TransportationOptionsTests.swift */; };
+		5847DE86299B8351008D1861 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5874F4862992F45D00C600FA /* Constants.swift */; };
+		5847DE87299B836E008D1861 /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5874F48A2992FACC00C600FA /* School.swift */; };
+		5847DE88299B8392008D1861 /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5874F48A2992FACC00C600FA /* School.swift */; };
+		5847DE89299B839F008D1861 /* ContactDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E40EB629947CC000CEC2DF /* ContactDetailsViewController.swift */; };
+		5847DE8A299B839F008D1861 /* ContactDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E40EB629947CC000CEC2DF /* ContactDetailsViewController.swift */; };
+		5847DE8B299B83A3008D1861 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5874F48C2993619C00C600FA /* DetailsViewController.swift */; };
+		5847DE8C299B83A4008D1861 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5874F48C2993619C00C600FA /* DetailsViewController.swift */; };
+		5847DE8D299B83A6008D1861 /* FacilitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848E3972995ACC90058B013 /* FacilitiesViewController.swift */; };
+		5847DE8E299B83A7008D1861 /* FacilitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848E3972995ACC90058B013 /* FacilitiesViewController.swift */; };
+		5847DE8F299B83AA008D1861 /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E40EA22993AFC300CEC2DF /* LocationsViewController.swift */; };
+		5847DE90299B83AA008D1861 /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E40EA22993AFC300CEC2DF /* LocationsViewController.swift */; };
+		5847DE91299B83AE008D1861 /* AdmissionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848E3932995A3330058B013 /* AdmissionsViewController.swift */; };
+		5847DE92299B83AF008D1861 /* AdmissionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848E3932995A3330058B013 /* AdmissionsViewController.swift */; };
+		5847DE93299B83B2008D1861 /* SATScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B4C2996F66100DAAECD /* SATScoreViewController.swift */; };
+		5847DE94299B83B2008D1861 /* SATScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B4C2996F66100DAAECD /* SATScoreViewController.swift */; };
+		5847DE95299B83B5008D1861 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848E39C2995BD170058B013 /* StatisticsViewController.swift */; };
+		5847DE96299B83B5008D1861 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848E39C2995BD170058B013 /* StatisticsViewController.swift */; };
+		5847DE97299B83B8008D1861 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5874F4582992F10B00C600FA /* ViewController.swift */; };
+		5847DE98299B83B9008D1861 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5874F4582992F10B00C600FA /* ViewController.swift */; };
+		5847DE99299B83C0008D1861 /* BarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585667AB2998D0FB00A7318F /* BarChart.swift */; };
+		5847DE9A299B83C1008D1861 /* BarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585667AB2998D0FB00A7318F /* BarChart.swift */; };
+		5847DE9B299B83C4008D1861 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5874F4862992F45D00C600FA /* Constants.swift */; };
+		5847DE9C299B83C7008D1861 /* Mapkit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B8C29975E3B00DAAECD /* Mapkit.swift */; };
+		5847DE9D299B83C7008D1861 /* Mapkit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B8C29975E3B00DAAECD /* Mapkit.swift */; };
+		5847DE9E299B83CA008D1861 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B482996C61600DAAECD /* NetworkManager.swift */; };
+		5847DE9F299B83CB008D1861 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B482996C61600DAAECD /* NetworkManager.swift */; };
+		5847DEA1299B860A008D1861 /* AdmissionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5847DEA0299B860A008D1861 /* AdmissionsTests.swift */; };
+		5847DEA3299B8A9F008D1861 /* ContactDetailsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5847DEA2299B8A9F008D1861 /* ContactDetailsTests.swift */; };
+		5847DEA5299B8E24008D1861 /* NeighborhoodDetailsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5847DEA4299B8E24008D1861 /* NeighborhoodDetailsTests.swift */; };
+		5847DEA7299B950D008D1861 /* StatisticsInfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5847DEA6299B950D008D1861 /* StatisticsInfoTests.swift */; };
+		5847DEA9299B9A15008D1861 /* ProgramOverviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5847DEA8299B9A15008D1861 /* ProgramOverviewTests.swift */; };
+		5847DEAB299B9CC8008D1861 /* FacilitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5847DEAA299B9CC8008D1861 /* FacilitiesTests.swift */; };
+		5847DEAD299BA94A008D1861 /* SchoolDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5847DEAC299BA94A008D1861 /* SchoolDataTests.swift */; };
+		5847DEAF299BA9C7008D1861 /* FakeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5847DEAE299BA9C7008D1861 /* FakeData.swift */; };
+		5848E38C2994CC600058B013 /* SATScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848E38B2994CC600058B013 /* SATScore.swift */; };
+		5848E38D2994CC600058B013 /* SATScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848E38B2994CC600058B013 /* SATScore.swift */; };
+		5848E38E2994CC600058B013 /* SATScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848E38B2994CC600058B013 /* SATScore.swift */; };
+		5848E3902994E5B50058B013 /* StatisticsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848E38F2994E5B50058B013 /* StatisticsTableViewCell.swift */; };
+		5848E3912994E5B50058B013 /* StatisticsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848E38F2994E5B50058B013 /* StatisticsTableViewCell.swift */; };
+		5848E3922994E5B50058B013 /* StatisticsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848E38F2994E5B50058B013 /* StatisticsTableViewCell.swift */; };
+		5848E3942995A3330058B013 /* AdmissionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848E3932995A3330058B013 /* AdmissionsViewController.swift */; };
+		5848E3982995ACC90058B013 /* FacilitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848E3972995ACC90058B013 /* FacilitiesViewController.swift */; };
+		5848E39D2995BD170058B013 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848E39C2995BD170058B013 /* StatisticsViewController.swift */; };
+		58553B492996C61600DAAECD /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B482996C61600DAAECD /* NetworkManager.swift */; };
+		58553B4D2996F66100DAAECD /* SATScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B4C2996F66100DAAECD /* SATScoreViewController.swift */; };
+		58553B512996FB0100DAAECD /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B502996FB0100DAAECD /* Address.swift */; };
+		58553B522996FB0100DAAECD /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B502996FB0100DAAECD /* Address.swift */; };
+		58553B532996FB0100DAAECD /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B502996FB0100DAAECD /* Address.swift */; };
+		58553B552996FB5C00DAAECD /* TransportationOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B542996FB5C00DAAECD /* TransportationOptions.swift */; };
+		58553B562996FB5C00DAAECD /* TransportationOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B542996FB5C00DAAECD /* TransportationOptions.swift */; };
+		58553B572996FB5C00DAAECD /* TransportationOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B542996FB5C00DAAECD /* TransportationOptions.swift */; };
+		58553B592996FBA000DAAECD /* NeighborhoodDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B582996FBA000DAAECD /* NeighborhoodDetails.swift */; };
+		58553B5A2996FBA000DAAECD /* NeighborhoodDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B582996FBA000DAAECD /* NeighborhoodDetails.swift */; };
+		58553B5B2996FBA000DAAECD /* NeighborhoodDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B582996FBA000DAAECD /* NeighborhoodDetails.swift */; };
+		58553B5D2996FBEF00DAAECD /* LocationDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B5C2996FBEF00DAAECD /* LocationDetails.swift */; };
+		58553B5E2996FBEF00DAAECD /* LocationDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B5C2996FBEF00DAAECD /* LocationDetails.swift */; };
+		58553B5F2996FBEF00DAAECD /* LocationDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B5C2996FBEF00DAAECD /* LocationDetails.swift */; };
+		58553B612996FC1300DAAECD /* ContactDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B602996FC1300DAAECD /* ContactDetails.swift */; };
+		58553B622996FC1300DAAECD /* ContactDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B602996FC1300DAAECD /* ContactDetails.swift */; };
+		58553B632996FC1300DAAECD /* ContactDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B602996FC1300DAAECD /* ContactDetails.swift */; };
+		58553B652996FC3C00DAAECD /* ProgramOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B642996FC3C00DAAECD /* ProgramOverview.swift */; };
+		58553B662996FC3C00DAAECD /* ProgramOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B642996FC3C00DAAECD /* ProgramOverview.swift */; };
+		58553B672996FC3C00DAAECD /* ProgramOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B642996FC3C00DAAECD /* ProgramOverview.swift */; };
+		58553B692996FC5800DAAECD /* StatisticsOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B682996FC5800DAAECD /* StatisticsOverview.swift */; };
+		58553B6A2996FC5800DAAECD /* StatisticsOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B682996FC5800DAAECD /* StatisticsOverview.swift */; };
+		58553B6B2996FC5800DAAECD /* StatisticsOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B682996FC5800DAAECD /* StatisticsOverview.swift */; };
+		58553B6D2996FC7C00DAAECD /* StatisticsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B6C2996FC7C00DAAECD /* StatisticsInfo.swift */; };
+		58553B6E2996FC7C00DAAECD /* StatisticsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B6C2996FC7C00DAAECD /* StatisticsInfo.swift */; };
+		58553B6F2996FC7C00DAAECD /* StatisticsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B6C2996FC7C00DAAECD /* StatisticsInfo.swift */; };
+		58553B712996FC9F00DAAECD /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B702996FC9F00DAAECD /* Statistics.swift */; };
+		58553B722996FC9F00DAAECD /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B702996FC9F00DAAECD /* Statistics.swift */; };
+		58553B732996FC9F00DAAECD /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B702996FC9F00DAAECD /* Statistics.swift */; };
+		58553B752996FCBB00DAAECD /* Admissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B742996FCBB00DAAECD /* Admissions.swift */; };
+		58553B762996FCBB00DAAECD /* Admissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B742996FCBB00DAAECD /* Admissions.swift */; };
+		58553B772996FCBB00DAAECD /* Admissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B742996FCBB00DAAECD /* Admissions.swift */; };
+		58553B792996FCD800DAAECD /* Facilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B782996FCD800DAAECD /* Facilities.swift */; };
+		58553B7A2996FCD800DAAECD /* Facilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B782996FCD800DAAECD /* Facilities.swift */; };
+		58553B7B2996FCD800DAAECD /* Facilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B782996FCD800DAAECD /* Facilities.swift */; };
+		58553B812996FFEF00DAAECD /* ProgramDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B802996FFEF00DAAECD /* ProgramDetails.swift */; };
+		58553B822996FFEF00DAAECD /* ProgramDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B802996FFEF00DAAECD /* ProgramDetails.swift */; };
+		58553B832996FFEF00DAAECD /* ProgramDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B802996FFEF00DAAECD /* ProgramDetails.swift */; };
+		58553B8D29975E3B00DAAECD /* Mapkit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58553B8C29975E3B00DAAECD /* Mapkit.swift */; };
+		585667A42998CFC800A7318F /* GeneralDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585667A32998CFC800A7318F /* GeneralDetails.swift */; };
+		585667A52998CFC800A7318F /* GeneralDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585667A32998CFC800A7318F /* GeneralDetails.swift */; };
+		585667A62998CFC800A7318F /* GeneralDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585667A32998CFC800A7318F /* GeneralDetails.swift */; };
+		585667AC2998D0FB00A7318F /* BarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585667AB2998D0FB00A7318F /* BarChart.swift */; };
+		585667B029999B4200A7318F /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585667AF29999B4200A7318F /* UIColor+Extensions.swift */; };
+		585667B129999B4200A7318F /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585667AF29999B4200A7318F /* UIColor+Extensions.swift */; };
+		585667B229999B4200A7318F /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585667AF29999B4200A7318F /* UIColor+Extensions.swift */; };
+		585667B92999CFCE00A7318F /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585667B82999CFCE00A7318F /* String+Extensions.swift */; };
+		585667BA2999CFCE00A7318F /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585667B82999CFCE00A7318F /* String+Extensions.swift */; };
+		585667BB2999CFCE00A7318F /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585667B82999CFCE00A7318F /* String+Extensions.swift */; };
+		585721AF29949C0700769CB8 /* ProgramDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585721AE29949C0700769CB8 /* ProgramDetailsTableViewCell.swift */; };
+		585721B029949C0700769CB8 /* ProgramDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585721AE29949C0700769CB8 /* ProgramDetailsTableViewCell.swift */; };
+		585721B129949C0700769CB8 /* ProgramDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585721AE29949C0700769CB8 /* ProgramDetailsTableViewCell.swift */; };
+		5874F4552992F10B00C600FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5874F4542992F10B00C600FA /* AppDelegate.swift */; };
+		5874F4572992F10B00C600FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5874F4562992F10B00C600FA /* SceneDelegate.swift */; };
+		5874F4592992F10B00C600FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5874F4582992F10B00C600FA /* ViewController.swift */; };
+		5874F45C2992F10B00C600FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5874F45A2992F10B00C600FA /* Main.storyboard */; };
+		5874F45E2992F10C00C600FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5874F45D2992F10C00C600FA /* Assets.xcassets */; };
+		5874F4612992F10C00C600FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5874F45F2992F10C00C600FA /* LaunchScreen.storyboard */; };
+		5874F46C2992F10D00C600FA /* HighSchoolDirectoryAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5874F46B2992F10D00C600FA /* HighSchoolDirectoryAppTests.swift */; };
+		5874F4762992F10D00C600FA /* HighSchoolDirectoryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5874F4752992F10D00C600FA /* HighSchoolDirectoryAppUITests.swift */; };
+		5874F4782992F10D00C600FA /* HighSchoolDirectoryAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5874F4772992F10D00C600FA /* HighSchoolDirectoryAppUITestsLaunchTests.swift */; };
+		5874F4872992F45D00C600FA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5874F4862992F45D00C600FA /* Constants.swift */; };
+		5874F48B2992FACC00C600FA /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5874F48A2992FACC00C600FA /* School.swift */; };
+		5874F48D2993619C00C600FA /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5874F48C2993619C00C600FA /* DetailsViewController.swift */; };
+		58E40EA32993AFC300CEC2DF /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E40EA22993AFC300CEC2DF /* LocationsViewController.swift */; };
+		58E40EAF2994375A00CEC2DF /* SchoolData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E40EAE2994375A00CEC2DF /* SchoolData.swift */; };
+		58E40EB02994375A00CEC2DF /* SchoolData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E40EAE2994375A00CEC2DF /* SchoolData.swift */; };
+		58E40EB12994375A00CEC2DF /* SchoolData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E40EAE2994375A00CEC2DF /* SchoolData.swift */; };
+		58E40EB729947CC000CEC2DF /* ContactDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E40EB629947CC000CEC2DF /* ContactDetailsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5874F4682992F10D00C600FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5874F4492992F10B00C600FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5874F4502992F10B00C600FA;
+			remoteInfo = HighSchoolDirectoryApp;
+		};
+		5874F4722992F10D00C600FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5874F4492992F10B00C600FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5874F4502992F10B00C600FA;
+			remoteInfo = HighSchoolDirectoryApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18DE1793994D45F8D0753B66 /* Pods-HighSchoolDirectoryAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HighSchoolDirectoryAppTests.debug.xcconfig"; path = "Target Support Files/Pods-HighSchoolDirectoryAppTests/Pods-HighSchoolDirectoryAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3908F90E1553AF6471297628 /* Pods-HighSchoolDirectoryApp-HighSchoolDirectoryAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HighSchoolDirectoryApp-HighSchoolDirectoryAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-HighSchoolDirectoryApp-HighSchoolDirectoryAppUITests/Pods-HighSchoolDirectoryApp-HighSchoolDirectoryAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		580087442993845B00A8B9FA /* OverviewInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewInfoTableViewCell.swift; sourceTree = "<group>"; };
+		5847DE83299B7F1F008D1861 /* TransportationOptionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportationOptionsTests.swift; sourceTree = "<group>"; };
+		5847DEA0299B860A008D1861 /* AdmissionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdmissionsTests.swift; sourceTree = "<group>"; };
+		5847DEA2299B8A9F008D1861 /* ContactDetailsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsTests.swift; sourceTree = "<group>"; };
+		5847DEA4299B8E24008D1861 /* NeighborhoodDetailsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeighborhoodDetailsTests.swift; sourceTree = "<group>"; };
+		5847DEA6299B950D008D1861 /* StatisticsInfoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsInfoTests.swift; sourceTree = "<group>"; };
+		5847DEA8299B9A15008D1861 /* ProgramOverviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramOverviewTests.swift; sourceTree = "<group>"; };
+		5847DEAA299B9CC8008D1861 /* FacilitiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilitiesTests.swift; sourceTree = "<group>"; };
+		5847DEAC299BA94A008D1861 /* SchoolDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDataTests.swift; sourceTree = "<group>"; };
+		5847DEAE299BA9C7008D1861 /* FakeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeData.swift; sourceTree = "<group>"; };
+		5848E38B2994CC600058B013 /* SATScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATScore.swift; sourceTree = "<group>"; };
+		5848E38F2994E5B50058B013 /* StatisticsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsTableViewCell.swift; sourceTree = "<group>"; };
+		5848E3932995A3330058B013 /* AdmissionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdmissionsViewController.swift; sourceTree = "<group>"; };
+		5848E3972995ACC90058B013 /* FacilitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilitiesViewController.swift; sourceTree = "<group>"; };
+		5848E39C2995BD170058B013 /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
+		58553B482996C61600DAAECD /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		58553B4C2996F66100DAAECD /* SATScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATScoreViewController.swift; sourceTree = "<group>"; };
+		58553B502996FB0100DAAECD /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		58553B542996FB5C00DAAECD /* TransportationOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportationOptions.swift; sourceTree = "<group>"; };
+		58553B582996FBA000DAAECD /* NeighborhoodDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeighborhoodDetails.swift; sourceTree = "<group>"; };
+		58553B5C2996FBEF00DAAECD /* LocationDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetails.swift; sourceTree = "<group>"; };
+		58553B602996FC1300DAAECD /* ContactDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetails.swift; sourceTree = "<group>"; };
+		58553B642996FC3C00DAAECD /* ProgramOverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramOverview.swift; sourceTree = "<group>"; };
+		58553B682996FC5800DAAECD /* StatisticsOverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsOverview.swift; sourceTree = "<group>"; };
+		58553B6C2996FC7C00DAAECD /* StatisticsInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsInfo.swift; sourceTree = "<group>"; };
+		58553B702996FC9F00DAAECD /* Statistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistics.swift; sourceTree = "<group>"; };
+		58553B742996FCBB00DAAECD /* Admissions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Admissions.swift; sourceTree = "<group>"; };
+		58553B782996FCD800DAAECD /* Facilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facilities.swift; sourceTree = "<group>"; };
+		58553B802996FFEF00DAAECD /* ProgramDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramDetails.swift; sourceTree = "<group>"; };
+		58553B8C29975E3B00DAAECD /* Mapkit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mapkit.swift; sourceTree = "<group>"; };
+		585667A32998CFC800A7318F /* GeneralDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralDetails.swift; sourceTree = "<group>"; };
+		585667AB2998D0FB00A7318F /* BarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChart.swift; sourceTree = "<group>"; };
+		585667AF29999B4200A7318F /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		585667B82999CFCE00A7318F /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		585721AE29949C0700769CB8 /* ProgramDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		5874F4512992F10B00C600FA /* HighSchoolDirectoryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HighSchoolDirectoryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5874F4542992F10B00C600FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5874F4562992F10B00C600FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5874F4582992F10B00C600FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5874F45B2992F10B00C600FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5874F45D2992F10C00C600FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5874F4602992F10C00C600FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5874F4622992F10C00C600FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5874F4672992F10D00C600FA /* HighSchoolDirectoryAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HighSchoolDirectoryAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5874F46B2992F10D00C600FA /* HighSchoolDirectoryAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighSchoolDirectoryAppTests.swift; sourceTree = "<group>"; };
+		5874F4712992F10D00C600FA /* HighSchoolDirectoryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HighSchoolDirectoryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5874F4752992F10D00C600FA /* HighSchoolDirectoryAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighSchoolDirectoryAppUITests.swift; sourceTree = "<group>"; };
+		5874F4772992F10D00C600FA /* HighSchoolDirectoryAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighSchoolDirectoryAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5874F4862992F45D00C600FA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5874F48A2992FACC00C600FA /* School.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
+		5874F48C2993619C00C600FA /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		58E40EA22993AFC300CEC2DF /* LocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewController.swift; sourceTree = "<group>"; };
+		58E40EAE2994375A00CEC2DF /* SchoolData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolData.swift; sourceTree = "<group>"; };
+		58E40EB629947CC000CEC2DF /* ContactDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewController.swift; sourceTree = "<group>"; };
+		7C691DBA6C30E43D2E843CB2 /* Pods_HighSchoolDirectoryApp_HighSchoolDirectoryAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HighSchoolDirectoryApp_HighSchoolDirectoryAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86C04AF634AF130E82DFE26F /* Pods-HighSchoolDirectoryApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HighSchoolDirectoryApp.release.xcconfig"; path = "Target Support Files/Pods-HighSchoolDirectoryApp/Pods-HighSchoolDirectoryApp.release.xcconfig"; sourceTree = "<group>"; };
+		8EF0A5AA9DCF05ED7FB2583F /* Pods-HighSchoolDirectoryAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HighSchoolDirectoryAppTests.release.xcconfig"; path = "Target Support Files/Pods-HighSchoolDirectoryAppTests/Pods-HighSchoolDirectoryAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		ABC80FA8A7B79F5630F9B394 /* Pods-HighSchoolDirectoryApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HighSchoolDirectoryApp.debug.xcconfig"; path = "Target Support Files/Pods-HighSchoolDirectoryApp/Pods-HighSchoolDirectoryApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B092A25D9A1D15C6AD83DD38 /* Pods_HighSchoolDirectoryApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HighSchoolDirectoryApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB150A3CDB1098C335BBDFD7 /* Pods-HighSchoolDirectoryApp-HighSchoolDirectoryAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HighSchoolDirectoryApp-HighSchoolDirectoryAppUITests.release.xcconfig"; path = "Target Support Files/Pods-HighSchoolDirectoryApp-HighSchoolDirectoryAppUITests/Pods-HighSchoolDirectoryApp-HighSchoolDirectoryAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EB6B1FDF155BA69AC191C38C /* Pods_HighSchoolDirectoryAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HighSchoolDirectoryAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5874F44E2992F10B00C600FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E149ECF7DCC50EEE658F84D /* Pods_HighSchoolDirectoryApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5874F4642992F10D00C600FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0632CEC8A5F16A55F3816617 /* Pods_HighSchoolDirectoryAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5874F46E2992F10D00C600FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30AE6C7626CE9A68A91EF911 /* Pods_HighSchoolDirectoryApp_HighSchoolDirectoryAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5847DE85299B7FBD008D1861 /* Fakes */ = {
+			isa = PBXGroup;
+			children = (
+				5847DEAE299BA9C7008D1861 /* FakeData.swift */,
+			);
+			path = Fakes;
+			sourceTree = "<group>";
+		};
+		5847DEB4299BBF65008D1861 /* ModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				5874F46B2992F10D00C600FA /* HighSchoolDirectoryAppTests.swift */,
+				5847DEA0299B860A008D1861 /* AdmissionsTests.swift */,
+				5847DEA2299B8A9F008D1861 /* ContactDetailsTests.swift */,
+				5847DEAA299B9CC8008D1861 /* FacilitiesTests.swift */,
+				5847DEA4299B8E24008D1861 /* NeighborhoodDetailsTests.swift */,
+				5847DEA8299B9A15008D1861 /* ProgramOverviewTests.swift */,
+				5847DEAC299BA94A008D1861 /* SchoolDataTests.swift */,
+				5847DEA6299B950D008D1861 /* StatisticsInfoTests.swift */,
+				5847DE83299B7F1F008D1861 /* TransportationOptionsTests.swift */,
+			);
+			path = ModelTests;
+			sourceTree = "<group>";
+		};
+		585667B72999A38A00A7318F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				585667B82999CFCE00A7318F /* String+Extensions.swift */,
+				585667AF29999B4200A7318F /* UIColor+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		585667BC2999D1BA00A7318F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				58E40EB629947CC000CEC2DF /* ContactDetailsViewController.swift */,
+				5874F48C2993619C00C600FA /* DetailsViewController.swift */,
+				5848E3972995ACC90058B013 /* FacilitiesViewController.swift */,
+				58E40EA22993AFC300CEC2DF /* LocationsViewController.swift */,
+				5848E3932995A3330058B013 /* AdmissionsViewController.swift */,
+				58553B4C2996F66100DAAECD /* SATScoreViewController.swift */,
+				5848E39C2995BD170058B013 /* StatisticsViewController.swift */,
+				5874F4582992F10B00C600FA /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		585667BD2999D25D00A7318F /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				580087442993845B00A8B9FA /* OverviewInfoTableViewCell.swift */,
+				585721AE29949C0700769CB8 /* ProgramDetailsTableViewCell.swift */,
+				5848E38F2994E5B50058B013 /* StatisticsTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		5874F4482992F10B00C600FA = {
+			isa = PBXGroup;
+			children = (
+				5874F4532992F10B00C600FA /* HighSchoolDirectoryApp */,
+				5874F46A2992F10D00C600FA /* HighSchoolDirectoryAppTests */,
+				5874F4742992F10D00C600FA /* HighSchoolDirectoryAppUITests */,
+				5874F4522992F10B00C600FA /* Products */,
+				EC6E0068C8FB99A680163CE9 /* Pods */,
+				635EB9D704C71B930D034862 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5874F4522992F10B00C600FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5874F4512992F10B00C600FA /* HighSchoolDirectoryApp.app */,
+				5874F4672992F10D00C600FA /* HighSchoolDirectoryAppTests.xctest */,
+				5874F4712992F10D00C600FA /* HighSchoolDirectoryAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5874F4532992F10B00C600FA /* HighSchoolDirectoryApp */ = {
+			isa = PBXGroup;
+			children = (
+				5874F4842992F3A800C600FA /* Model */,
+				585667BD2999D25D00A7318F /* TableViewCell */,
+				585667BC2999D1BA00A7318F /* ViewControllers */,
+				5874F4852992F44400C600FA /* Utilities */,
+				5874F4542992F10B00C600FA /* AppDelegate.swift */,
+				5874F4562992F10B00C600FA /* SceneDelegate.swift */,
+				5874F45A2992F10B00C600FA /* Main.storyboard */,
+				5874F45D2992F10C00C600FA /* Assets.xcassets */,
+				5874F45F2992F10C00C600FA /* LaunchScreen.storyboard */,
+				5874F4622992F10C00C600FA /* Info.plist */,
+			);
+			path = HighSchoolDirectoryApp;
+			sourceTree = "<group>";
+		};
+		5874F46A2992F10D00C600FA /* HighSchoolDirectoryAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5847DEB4299BBF65008D1861 /* ModelTests */,
+				5847DE85299B7FBD008D1861 /* Fakes */,
+			);
+			path = HighSchoolDirectoryAppTests;
+			sourceTree = "<group>";
+		};
+		5874F4742992F10D00C600FA /* HighSchoolDirectoryAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5874F4752992F10D00C600FA /* HighSchoolDirectoryAppUITests.swift */,
+				5874F4772992F10D00C600FA /* HighSchoolDirectoryAppUITestsLaunchTests.swift */,
+			);
+			path = HighSchoolDirectoryAppUITests;
+			sourceTree = "<group>";
+		};
+		5874F4842992F3A800C600FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				58553B502996FB0100DAAECD /* Address.swift */,
+				58553B742996FCBB00DAAECD /* Admissions.swift */,
+				58553B602996FC1300DAAECD /* ContactDetails.swift */,
+				58553B782996FCD800DAAECD /* Facilities.swift */,
+				585667A32998CFC800A7318F /* GeneralDetails.swift */,
+				58553B5C2996FBEF00DAAECD /* LocationDetails.swift */,
+				58553B582996FBA000DAAECD /* NeighborhoodDetails.swift */,
+				58553B802996FFEF00DAAECD /* ProgramDetails.swift */,
+				58553B642996FC3C00DAAECD /* ProgramOverview.swift */,
+				5874F48A2992FACC00C600FA /* School.swift */,
+				58E40EAE2994375A00CEC2DF /* SchoolData.swift */,
+				5848E38B2994CC600058B013 /* SATScore.swift */,
+				58553B702996FC9F00DAAECD /* Statistics.swift */,
+				58553B6C2996FC7C00DAAECD /* StatisticsInfo.swift */,
+				58553B682996FC5800DAAECD /* StatisticsOverview.swift */,
+				58553B542996FB5C00DAAECD /* TransportationOptions.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5874F4852992F44400C600FA /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				585667B72999A38A00A7318F /* Extensions */,
+				585667AB2998D0FB00A7318F /* BarChart.swift */,
+				5874F4862992F45D00C600FA /* Constants.swift */,
+				58553B8C29975E3B00DAAECD /* Mapkit.swift */,
+				58553B482996C61600DAAECD /* NetworkManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		635EB9D704C71B930D034862 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B092A25D9A1D15C6AD83DD38 /* Pods_HighSchoolDirectoryApp.framework */,
+				7C691DBA6C30E43D2E843CB2 /* Pods_HighSchoolDirectoryApp_HighSchoolDirectoryAppUITests.framework */,
+				EB6B1FDF155BA69AC191C38C /* Pods_HighSchoolDirectoryAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC6E0068C8FB99A680163CE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABC80FA8A7B79F5630F9B394 /* Pods-HighSchoolDirectoryApp.debug.xcconfig */,
+				86C04AF634AF130E82DFE26F /* Pods-HighSchoolDirectoryApp.release.xcconfig */,
+				3908F90E1553AF6471297628 /* Pods-HighSchoolDirectoryApp-HighSchoolDirectoryAppUITests.debug.xcconfig */,
+				CB150A3CDB1098C335BBDFD7 /* Pods-HighSchoolDirectoryApp-HighSchoolDirectoryAppUITests.release.xcconfig */,
+				18DE1793994D45F8D0753B66 /* Pods-HighSchoolDirectoryAppTests.debug.xcconfig */,
+				8EF0A5AA9DCF05ED7FB2583F /* Pods-HighSchoolDirectoryAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5874F4502992F10B00C600FA /* HighSchoolDirectoryApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5874F47B2992F10D00C600FA /* Build configuration list for PBXNativeTarget "HighSchoolDirectoryApp" */;
+			buildPhases = (
+				72657F400DBEC8F55C0607D8 /* [CP] Check Pods Manifest.lock */,
+				5874F44D2992F10B00C600FA /* Sources */,
+				5874F44E2992F10B00C600FA /* Frameworks */,
+				5874F44F2992F10B00C600FA /* Resources */,
+				31614189820F4D6B93C1CCE9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HighSchoolDirectoryApp;
+			productName = HighSchoolDirectoryApp;
+			productReference = 5874F4512992F10B00C600FA /* HighSchoolDirectoryApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5874F4662992F10D00C600FA /* HighSchoolDirectoryAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5874F47E2992F10D00C600FA /* Build configuration list for PBXNativeTarget "HighSchoolDirectoryAppTests" */;
+			buildPhases = (
+				2B0C5C3B4B4E596AF2820252 /* [CP] Check Pods Manifest.lock */,
+				5874F4632992F10D00C600FA /* Sources */,
+				5874F4642992F10D00C600FA /* Frameworks */,
+				5874F4652992F10D00C600FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5874F4692992F10D00C600FA /* PBXTargetDependency */,
+			);
+			name = HighSchoolDirectoryAppTests;
+			productName = HighSchoolDirectoryAppTests;
+			productReference = 5874F4672992F10D00C600FA /* HighSchoolDirectoryAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5874F4702992F10D00C600FA /* HighSchoolDirectoryAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5874F4812992F10D00C600FA /* Build configuration list for PBXNativeTarget "HighSchoolDirectoryAppUITests" */;
+			buildPhases = (
+				97F22BCA9E0344A4EB0337E1 /* [CP] Check Pods Manifest.lock */,
+				5874F46D2992F10D00C600FA /* Sources */,
+				5874F46E2992F10D00C600FA /* Frameworks */,
+				5874F46F2992F10D00C600FA /* Resources */,
+				88FB973AE438337E38A268C9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5874F4732992F10D00C600FA /* PBXTargetDependency */,
+			);
+			name = HighSchoolDirectoryAppUITests;
+			productName = HighSchoolDirectoryAppUITests;
+			productReference = 5874F4712992F10D00C600FA /* HighSchoolDirectoryAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5874F4492992F10B00C600FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					5874F4502992F10B00C600FA = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					5874F4662992F10D00C600FA = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 5874F4502992F10B00C600FA;
+					};
+					5874F4702992F10D00C600FA = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 5874F4502992F10B00C600FA;
+					};
+				};
+			};
+			buildConfigurationList = 5874F44C2992F10B00C600FA /* Build configuration list for PBXProject "HighSchoolDirectoryApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5874F4482992F10B00C600FA;
+			productRefGroup = 5874F4522992F10B00C600FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5874F4502992F10B00C600FA /* HighSchoolDirectoryApp */,
+				5874F4662992F10D00C600FA /* HighSchoolDirectoryAppTests */,
+				5874F4702992F10D00C600FA /* HighSchoolDirectoryAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5874F44F2992F10B00C600FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5874F4612992F10C00C600FA /* LaunchScreen.storyboard in Resources */,
+				5874F45E2992F10C00C600FA /* Assets.xcassets in Resources */,
+				5874F45C2992F10B00C600FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5874F4652992F10D00C600FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5874F46F2992F10D00C600FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B0C5C3B4B4E596AF2820252 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HighSchoolDirectoryAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31614189820F4D6B93C1CCE9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HighSchoolDirectoryApp/Pods-HighSchoolDirectoryApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HighSchoolDirectoryApp/Pods-HighSchoolDirectoryApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HighSchoolDirectoryApp/Pods-HighSchoolDirectoryApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72657F400DBEC8F55C0607D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HighSchoolDirectoryApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88FB973AE438337E38A268C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HighSchoolDirectoryApp-HighSchoolDirectoryAppUITests/Pods-HighSchoolDirectoryApp-HighSchoolDirectoryAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HighSchoolDirectoryApp-HighSchoolDirectoryAppUITests/Pods-HighSchoolDirectoryApp-HighSchoolDirectoryAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HighSchoolDirectoryApp-HighSchoolDirectoryAppUITests/Pods-HighSchoolDirectoryApp-HighSchoolDirectoryAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97F22BCA9E0344A4EB0337E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HighSchoolDirectoryApp-HighSchoolDirectoryAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5874F44D2992F10B00C600FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58553B492996C61600DAAECD /* NetworkManager.swift in Sources */,
+				58553B612996FC1300DAAECD /* ContactDetails.swift in Sources */,
+				5874F4592992F10B00C600FA /* ViewController.swift in Sources */,
+				5848E38C2994CC600058B013 /* SATScore.swift in Sources */,
+				585667B92999CFCE00A7318F /* String+Extensions.swift in Sources */,
+				5874F48B2992FACC00C600FA /* School.swift in Sources */,
+				5874F4552992F10B00C600FA /* AppDelegate.swift in Sources */,
+				58E40EA32993AFC300CEC2DF /* LocationsViewController.swift in Sources */,
+				58553B752996FCBB00DAAECD /* Admissions.swift in Sources */,
+				5848E3982995ACC90058B013 /* FacilitiesViewController.swift in Sources */,
+				58553B652996FC3C00DAAECD /* ProgramOverview.swift in Sources */,
+				5874F4572992F10B00C600FA /* SceneDelegate.swift in Sources */,
+				58553B8D29975E3B00DAAECD /* Mapkit.swift in Sources */,
+				5848E39D2995BD170058B013 /* StatisticsViewController.swift in Sources */,
+				580087452993845B00A8B9FA /* OverviewInfoTableViewCell.swift in Sources */,
+				58553B592996FBA000DAAECD /* NeighborhoodDetails.swift in Sources */,
+				585667B029999B4200A7318F /* UIColor+Extensions.swift in Sources */,
+				58553B4D2996F66100DAAECD /* SATScoreViewController.swift in Sources */,
+				58553B712996FC9F00DAAECD /* Statistics.swift in Sources */,
+				5848E3942995A3330058B013 /* AdmissionsViewController.swift in Sources */,
+				58553B812996FFEF00DAAECD /* ProgramDetails.swift in Sources */,
+				585667A42998CFC800A7318F /* GeneralDetails.swift in Sources */,
+				58553B5D2996FBEF00DAAECD /* LocationDetails.swift in Sources */,
+				58E40EAF2994375A00CEC2DF /* SchoolData.swift in Sources */,
+				58E40EB729947CC000CEC2DF /* ContactDetailsViewController.swift in Sources */,
+				58553B512996FB0100DAAECD /* Address.swift in Sources */,
+				5874F4872992F45D00C600FA /* Constants.swift in Sources */,
+				5874F48D2993619C00C600FA /* DetailsViewController.swift in Sources */,
+				585721AF29949C0700769CB8 /* ProgramDetailsTableViewCell.swift in Sources */,
+				58553B692996FC5800DAAECD /* StatisticsOverview.swift in Sources */,
+				58553B6D2996FC7C00DAAECD /* StatisticsInfo.swift in Sources */,
+				58553B552996FB5C00DAAECD /* TransportationOptions.swift in Sources */,
+				58553B792996FCD800DAAECD /* Facilities.swift in Sources */,
+				585667AC2998D0FB00A7318F /* BarChart.swift in Sources */,
+				5848E3902994E5B50058B013 /* StatisticsTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5874F4632992F10D00C600FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5847DE9F299B83CB008D1861 /* NetworkManager.swift in Sources */,
+				585667B129999B4200A7318F /* UIColor+Extensions.swift in Sources */,
+				58553B622996FC1300DAAECD /* ContactDetails.swift in Sources */,
+				5847DE8B299B83A3008D1861 /* DetailsViewController.swift in Sources */,
+				5847DEA5299B8E24008D1861 /* NeighborhoodDetailsTests.swift in Sources */,
+				5847DE9D299B83C7008D1861 /* Mapkit.swift in Sources */,
+				5847DEA3299B8A9F008D1861 /* ContactDetailsTests.swift in Sources */,
+				5847DE96299B83B5008D1861 /* StatisticsViewController.swift in Sources */,
+				585667BA2999CFCE00A7318F /* String+Extensions.swift in Sources */,
+				5847DEAF299BA9C7008D1861 /* FakeData.swift in Sources */,
+				5848E3912994E5B50058B013 /* StatisticsTableViewCell.swift in Sources */,
+				58553B822996FFEF00DAAECD /* ProgramDetails.swift in Sources */,
+				58553B762996FCBB00DAAECD /* Admissions.swift in Sources */,
+				58553B5E2996FBEF00DAAECD /* LocationDetails.swift in Sources */,
+				58553B7A2996FCD800DAAECD /* Facilities.swift in Sources */,
+				5847DE8D299B83A6008D1861 /* FacilitiesViewController.swift in Sources */,
+				58553B662996FC3C00DAAECD /* ProgramOverview.swift in Sources */,
+				58553B6A2996FC5800DAAECD /* StatisticsOverview.swift in Sources */,
+				580087462993845B00A8B9FA /* OverviewInfoTableViewCell.swift in Sources */,
+				5847DEAB299B9CC8008D1861 /* FacilitiesTests.swift in Sources */,
+				5847DEAD299BA94A008D1861 /* SchoolDataTests.swift in Sources */,
+				5874F46C2992F10D00C600FA /* HighSchoolDirectoryAppTests.swift in Sources */,
+				5847DE98299B83B9008D1861 /* ViewController.swift in Sources */,
+				58E40EB02994375A00CEC2DF /* SchoolData.swift in Sources */,
+				58553B6E2996FC7C00DAAECD /* StatisticsInfo.swift in Sources */,
+				5847DEA1299B860A008D1861 /* AdmissionsTests.swift in Sources */,
+				5848E38D2994CC600058B013 /* SATScore.swift in Sources */,
+				585667A52998CFC800A7318F /* GeneralDetails.swift in Sources */,
+				5847DE99299B83C0008D1861 /* BarChart.swift in Sources */,
+				5847DE91299B83AE008D1861 /* AdmissionsViewController.swift in Sources */,
+				58553B5A2996FBA000DAAECD /* NeighborhoodDetails.swift in Sources */,
+				585721B029949C0700769CB8 /* ProgramDetailsTableViewCell.swift in Sources */,
+				5847DE94299B83B2008D1861 /* SATScoreViewController.swift in Sources */,
+				58553B522996FB0100DAAECD /* Address.swift in Sources */,
+				5847DEA9299B9A15008D1861 /* ProgramOverviewTests.swift in Sources */,
+				58553B722996FC9F00DAAECD /* Statistics.swift in Sources */,
+				58553B562996FB5C00DAAECD /* TransportationOptions.swift in Sources */,
+				5847DE90299B83AA008D1861 /* LocationsViewController.swift in Sources */,
+				5847DE84299B7F1F008D1861 /* TransportationOptionsTests.swift in Sources */,
+				5847DE87299B836E008D1861 /* School.swift in Sources */,
+				5847DE89299B839F008D1861 /* ContactDetailsViewController.swift in Sources */,
+				5847DEA7299B950D008D1861 /* StatisticsInfoTests.swift in Sources */,
+				5847DE86299B8351008D1861 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5874F46D2992F10D00C600FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5847DE9E299B83CA008D1861 /* NetworkManager.swift in Sources */,
+				5847DE8A299B839F008D1861 /* ContactDetailsViewController.swift in Sources */,
+				5847DE9B299B83C4008D1861 /* Constants.swift in Sources */,
+				580087472993845B00A8B9FA /* OverviewInfoTableViewCell.swift in Sources */,
+				5847DE9C299B83C7008D1861 /* Mapkit.swift in Sources */,
+				585667BB2999CFCE00A7318F /* String+Extensions.swift in Sources */,
+				58553B672996FC3C00DAAECD /* ProgramOverview.swift in Sources */,
+				58553B6B2996FC5800DAAECD /* StatisticsOverview.swift in Sources */,
+				5874F4782992F10D00C600FA /* HighSchoolDirectoryAppUITestsLaunchTests.swift in Sources */,
+				58553B6F2996FC7C00DAAECD /* StatisticsInfo.swift in Sources */,
+				5847DE8F299B83AA008D1861 /* LocationsViewController.swift in Sources */,
+				58553B632996FC1300DAAECD /* ContactDetails.swift in Sources */,
+				5847DE95299B83B5008D1861 /* StatisticsViewController.swift in Sources */,
+				5847DE88299B8392008D1861 /* School.swift in Sources */,
+				58553B572996FB5C00DAAECD /* TransportationOptions.swift in Sources */,
+				58E40EB12994375A00CEC2DF /* SchoolData.swift in Sources */,
+				5847DE8C299B83A4008D1861 /* DetailsViewController.swift in Sources */,
+				5847DE97299B83B8008D1861 /* ViewController.swift in Sources */,
+				5847DE8E299B83A7008D1861 /* FacilitiesViewController.swift in Sources */,
+				585667B229999B4200A7318F /* UIColor+Extensions.swift in Sources */,
+				5874F4762992F10D00C600FA /* HighSchoolDirectoryAppUITests.swift in Sources */,
+				5847DE9A299B83C1008D1861 /* BarChart.swift in Sources */,
+				5848E3922994E5B50058B013 /* StatisticsTableViewCell.swift in Sources */,
+				585667A62998CFC800A7318F /* GeneralDetails.swift in Sources */,
+				58553B5F2996FBEF00DAAECD /* LocationDetails.swift in Sources */,
+				58553B832996FFEF00DAAECD /* ProgramDetails.swift in Sources */,
+				58553B772996FCBB00DAAECD /* Admissions.swift in Sources */,
+				5848E38E2994CC600058B013 /* SATScore.swift in Sources */,
+				58553B532996FB0100DAAECD /* Address.swift in Sources */,
+				5847DE93299B83B2008D1861 /* SATScoreViewController.swift in Sources */,
+				5847DE92299B83AF008D1861 /* AdmissionsViewController.swift in Sources */,
+				585721B129949C0700769CB8 /* ProgramDetailsTableViewCell.swift in Sources */,
+				58553B732996FC9F00DAAECD /* Statistics.swift in Sources */,
+				58553B7B2996FCD800DAAECD /* Facilities.swift in Sources */,
+				58553B5B2996FBA000DAAECD /* NeighborhoodDetails.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5874F4692992F10D00C600FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5874F4502992F10B00C600FA /* HighSchoolDirectoryApp */;
+			targetProxy = 5874F4682992F10D00C600FA /* PBXContainerItemProxy */;
+		};
+		5874F4732992F10D00C600FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5874F4502992F10B00C600FA /* HighSchoolDirectoryApp */;
+			targetProxy = 5874F4722992F10D00C600FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5874F45A2992F10B00C600FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5874F45B2992F10B00C600FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5874F45F2992F10C00C600FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5874F4602992F10C00C600FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5874F4792992F10D00C600FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5874F47A2992F10D00C600FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5874F47C2992F10D00C600FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABC80FA8A7B79F5630F9B394 /* Pods-HighSchoolDirectoryApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 548NZ82J6J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HighSchoolDirectoryApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "NYC Schools";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We want to help you find the school.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We want to help you find the school.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonia.HighSchoolDirectoryApp.HighSchoolDirectoryApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5874F47D2992F10D00C600FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86C04AF634AF130E82DFE26F /* Pods-HighSchoolDirectoryApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 548NZ82J6J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HighSchoolDirectoryApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "NYC Schools";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We want to help you find the school.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We want to help you find the school.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonia.HighSchoolDirectoryApp.HighSchoolDirectoryApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5874F47F2992F10D00C600FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18DE1793994D45F8D0753B66 /* Pods-HighSchoolDirectoryAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonia.HighSchoolDirectoryApp.HighSchoolDirectoryAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HighSchoolDirectoryApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HighSchoolDirectoryApp";
+			};
+			name = Debug;
+		};
+		5874F4802992F10D00C600FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EF0A5AA9DCF05ED7FB2583F /* Pods-HighSchoolDirectoryAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonia.HighSchoolDirectoryApp.HighSchoolDirectoryAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HighSchoolDirectoryApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HighSchoolDirectoryApp";
+			};
+			name = Release;
+		};
+		5874F4822992F10D00C600FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3908F90E1553AF6471297628 /* Pods-HighSchoolDirectoryApp-HighSchoolDirectoryAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonia.HighSchoolDirectoryApp.HighSchoolDirectoryAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HighSchoolDirectoryApp;
+			};
+			name = Debug;
+		};
+		5874F4832992F10D00C600FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB150A3CDB1098C335BBDFD7 /* Pods-HighSchoolDirectoryApp-HighSchoolDirectoryAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonia.HighSchoolDirectoryApp.HighSchoolDirectoryAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HighSchoolDirectoryApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5874F44C2992F10B00C600FA /* Build configuration list for PBXProject "HighSchoolDirectoryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5874F4792992F10D00C600FA /* Debug */,
+				5874F47A2992F10D00C600FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5874F47B2992F10D00C600FA /* Build configuration list for PBXNativeTarget "HighSchoolDirectoryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5874F47C2992F10D00C600FA /* Debug */,
+				5874F47D2992F10D00C600FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5874F47E2992F10D00C600FA /* Build configuration list for PBXNativeTarget "HighSchoolDirectoryAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5874F47F2992F10D00C600FA /* Debug */,
+				5874F4802992F10D00C600FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5874F4812992F10D00C600FA /* Build configuration list for PBXNativeTarget "HighSchoolDirectoryAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5874F4822992F10D00C600FA /* Debug */,
+				5874F4832992F10D00C600FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5874F4492992F10B00C600FA /* Project object */;
+}
